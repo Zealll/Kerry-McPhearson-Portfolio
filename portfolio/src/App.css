@@ -20,7 +20,7 @@ a, p{
   text-decoration: none;
   font-family: Lexend Deca;
   font-size: 20px;
-  padding: 15px;
+  /* padding: 15px; */
   color: white;
   line-height: 30px;
 }
@@ -37,70 +37,88 @@ p{
   width: 100%;
 }
 
-.top-left{
-  position:absolute;
-  top: 14%;
-  left: -2%;
+
+
+
+/* Top Image Container STARTS Here */
+
+
+.top-img-container {
+  border: 1px solid red;
+  display: flex;
+  width: 78%;
+  justify-content: space-between;
+  margin-top: 50px
+}
+.top-img-container .top-left{
+  margin-left: -40px
 }
 
-.top-middle{
-  position:absolute;
-  top: 9%;
-  left: 30%;
+.top-img-container .top-middle{
+  margin-top: -25px
+}
+/* Top Image Container ENDS Here */
+
+
+
+/* Middle Image Container STARTS Here */
+
+.middle-img-container {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
 }
 
-.top-right{
-  position:absolute;
-  top:13%;
-  right: 30%;
+.profile-pic-container {
+  display: flex
 }
 
 .middle-left{
-  position:absolute;
-  top:18%;
-  left: 15%;
+  /* position:absolute; */
+  /* top:18%;
+  left: 15%; */
+  border: 1px solid red;
+  margin-left: 10%
 }
 
 .middle-front{
-  z-index: 25;
-  position:absolute;
-  top:32%;
-  right: 15%;
+  z-index: 2;
+  background: #539DFF;
+  width: 300px;
+  height: 400px
 }
 
-.middle-behind{
-  z-index: 24;
-  position:absolute;
-  top:27%;
-  right: 10%;
+.middle-front img {
+  margin-left: -20px;
+  margin-top: 30px
 }
 
 .middle-right{
-  position:absolute;
-  top:27%;
-  right: 0%;
+  margin-left: -20px
+}
+
+.layer-one {
+  /* width: 50%; */
+  border: 1px solid red;
 }
 
 .bottom-left{
-  position:absolute;
-  bottom: 15%;
+  /* position:absolute; */
+  /* bottom: 15%;
   left: 5%;
-  z-index: 213;
+  z-index: 213; */
 }
 
 .bottom-middle{
-  position:absolute;
-  bottom: 9%;
-  left: 35%;
+  /* position:absolute; */
+  /* bottom: 9%;
+  left: 35%; */
 }
 
 .bottom-right{
-  position:absolute;
-  bottom: 1%;
-  right: 0%;
-}
-.layer-one{
-  z-index: 213;
+  /* position:absolute; */
+  /* bottom: 1%;
+  right: 0%; */
 }
 
 .layer-two{
@@ -111,13 +129,13 @@ p{
 }
 
 .bottom-bottom{
-  position:absolute;
+  /* position:absolute; */
   bottom: -10%;
   text-align: center;
   margin-left: auto;
-margin-right: auto;
-left: 0;
-right: 0;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
 
 .center{
@@ -216,6 +234,7 @@ right: 0;
   display: flex;
   width:98%;
 }
+
 .bottom{
   align-content:center;
   margin: 0 auto;
@@ -269,4 +288,8 @@ h1{
 
 h1{
   line-height: 10px;
+}
+
+.bottom-img-container {
+  border: 2px solid red
 }
