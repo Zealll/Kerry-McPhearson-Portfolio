@@ -1,8 +1,9 @@
 import React from 'react'
-import Behance from "./assets/Behance.png"
-import LinkedIn from "./assets/LinkedIn.png"
-import Medium from "./assets/MediumLogo.png"
-import Dribble from "./assets/Dribble.png"
+import Behance from "../../assets/Behance.png"
+import LinkedIn from "../../assets/LinkedIn.png"
+import Medium from "../../assets/MediumLogo.png"
+import Dribble from "../../assets/Dribble.png"
+import './Footer.scss'
 
 export default function Footer() {
     return (

@@ -1,0 +1,150 @@
+/* Top Image Container STARTS Here */
+
+.home {
+  .top-img-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    // margin-top: 50px
+  }
+  .top-img-container .top-left{
+    margin-left: -40px
+  }
+  
+  .top-img-container .top-middle{
+    margin-top: -25px
+  }
+  /* Top Image Container ENDS Here */
+  
+  
+  
+  /* Middle Image Container STARTS Here */
+  
+  .middle-img-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px
+  }
+  
+  .img-and-ball {
+    margin-top: -80px;
+    z-index: 2
+  }
+  
+  .top-right {
+    margin-left: -50px;
+    background-image: url("../../assets/TopMiddleRight.png");
+    height: 108px;
+    width: 108px
+  }
+  
+  .top-right img{
+    z-index: -5
+  }
+  
+  .profile-pic-container {
+    display: flex;
+  }
+  
+  .middle-left{
+    margin-left: 10%
+  }
+  
+  .middle-front{
+    background: #539DFF;
+    width: 300px;
+    height: 400px;
+    margin-top: -30px;
+  }
+  
+  .middle-front img {
+    margin-left: -20px;
+    margin-top: 30px
+  }
+  
+  .middle-right{
+    margin-left: -20px
+  }
+  
+  .layer-one {
+    display: flex;
+    flex-direction: column
+  }
+  
+  .layer-one p {
+    margin-bottom: -5px;
+    margin-top: -5px
+  }
+  
+  .layer-one .first-p {
+    margin-bottom: 8px
+  }
+  
+  .underline {
+    height: 19px;
+    background: #FF9482;
+    width: 225px
+  }
+  /* Middle Image Container ENDS Here! */
+  
+  
+  /* Bottom Image Container STARTS Here! */
+  
+  .bottom-img-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bottom-img-pic-container {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .first-two {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-top: -65px
+  }
+  
+  .bottom-right{
+      overflow: hidden;
+      img{
+        margin-right: -45px
+      }
+    
+  }
+  
+  .layer-two{
+    position:absolute;
+    top: 47%;
+    left: 3%;
+    z-index: 213;
+  }
+  
+  .bottom-bottom{
+    margin: 0 auto;
+  }
+  
+  .button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px
+  }
+  
+  .center{
+    height: 12px;
+    width: 18px;
+    z-index: 213;
+    margin: 20px auto 0 auto
+  }
+  .small1{
+    padding: 0px;
+    font-size: 18px;
+    line-height: 2px;
+    z-index: 213;
+    color: white;
+    margin-top: 15px
+  }
+}

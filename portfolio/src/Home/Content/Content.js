@@ -1,8 +1,10 @@
 import React from "react";
-import Solve from "./assets/Solve.png"
-import Q4TB from "./assets/Q4TB.png"
-import QuickStreet from "./assets/QuickStreet.png"
-import Plantlee from "./assets/Plantlee.png"
+import Solve from "../../assets/Solve.png"
+import Phones from "../../assets/Phones.PNG"
+import QuickStreet from "../../assets/QuickStreet.png"
+// import Plantlee from "../../assets/Plantlee.png"
+import revitalize from '../../assets/revitalize.png'
+import './Content.scss'
 
 export default function Content() {
   return (
@@ -18,7 +20,7 @@ export default function Content() {
               </p>
             </div>
 
-            <img src={QuickStreet}></img>
+            <img src={QuickStreet} alt='Quest for the best logo'></img>
           </div>
           <div className="center-left black">
             <div className="centered">
@@ -28,7 +30,7 @@ export default function Content() {
                 ensuring that all your plants are watered.{" "}
               </p>
             </div>
-            <img src={Plantlee}></img>
+            {/* <img src={revitalize}></img> */}
           </div>
         </div>
         <div className="right black">
@@ -40,7 +42,7 @@ export default function Content() {
               in their area.
             </p>
           </div>
-          <img src={Q4TB}></img>
+          <img src={Phones}></img>
         </div>
       </div>
       <div className="bottom black">

@@ -44,9 +44,8 @@ p{
 
 
 .top-img-container {
-  border: 1px solid red;
   display: flex;
-  width: 78%;
+  width: 50%;
   justify-content: space-between;
   margin-top: 50px
 }
@@ -64,28 +63,40 @@ p{
 /* Middle Image Container STARTS Here */
 
 .middle-img-container {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
+  margin-top: -30px
+}
+
+.img-and-ball {
+  margin-top: -80px;
+  z-index: 2
+}
+
+.top-right {
+  margin-left: -50px;
+  background-image: url("./assets/TopMiddleRight.png");
+  height: 108px;
+  width: 108px
+}
+
+.top-right img{
+  z-index: -5
 }
 
 .profile-pic-container {
-  display: flex
+  display: flex;
 }
 
 .middle-left{
-  /* position:absolute; */
-  /* top:18%;
-  left: 15%; */
-  border: 1px solid red;
   margin-left: 10%
 }
 
 .middle-front{
-  z-index: 2;
   background: #539DFF;
   width: 300px;
-  height: 400px
+  height: 400px;
+  margin-top: -30px;
 }
 
 .middle-front img {
@@ -98,27 +109,49 @@ p{
 }
 
 .layer-one {
-  /* width: 50%; */
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column
 }
 
-.bottom-left{
-  /* position:absolute; */
-  /* bottom: 15%;
-  left: 5%;
-  z-index: 213; */
+.layer-one p {
+  margin-bottom: -5px;
+  margin-top: -5px
 }
 
-.bottom-middle{
-  /* position:absolute; */
-  /* bottom: 9%;
-  left: 35%; */
+.layer-one .first-p {
+  margin-bottom: 8px
+}
+
+.underline {
+  height: 19px;
+  background: #FF9482;
+  width: 225px
+}
+/* Middle Image Container ENDS Here! */
+
+
+/* Bottom Image Container STARTS Here! */
+
+.bottom-img-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-img-pic-container {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-two {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-top: -65px
 }
 
 .bottom-right{
-  /* position:absolute; */
-  /* bottom: 1%;
-  right: 0%; */
+  margin-right: -45px
 }
 
 .layer-two{
@@ -129,19 +162,20 @@ p{
 }
 
 .bottom-bottom{
-  /* position:absolute; */
-  bottom: -10%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
+  margin: 0 auto;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px
 }
 
 .center{
   height: 12px;
   width: 18px;
   z-index: 213;
+  margin: 20px auto 0 auto
 }
 .small1{
   padding: 0px;
@@ -149,7 +183,9 @@ p{
   line-height: 2px;
   z-index: 213;
   color: white;
+  margin-top: 15px
 }
+/* Bottom Image Container ENDS Here! */
 
 .small{
   font-size: 22px;
@@ -288,8 +324,4 @@ h1{
 
 h1{
   line-height: 10px;
-}
-
-.bottom-img-container {
-  border: 2px solid red
 }

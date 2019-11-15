@@ -1,0 +1,26 @@
+.home {
+    .footer{
+        display:flex;
+        justify-content: space-between;
+        padding: 40px 40px 10px 40px;
+        background: #1D2536;
+        align-items: center;
+        padding-top: 40px;
+    }
+    
+    .footer-left{
+        align-content: flex-start;
+    
+        
+    }
+    
+    
+    .footer-right {
+        a {
+            margin-right: 30px
+        }
+    }
+    .padding{
+        padding-bottom: 6px;
+    }
+}
