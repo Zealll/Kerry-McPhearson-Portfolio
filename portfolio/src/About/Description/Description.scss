@@ -1,0 +1,116 @@
+.about {
+
+    .description {
+        .top-pictures-holder {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 80px;
+            
+            .left {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                margin-top: 150px;
+                
+                .purple-vector {
+                    align-self: flex-start;
+                    width: 170px;
+                    z-index: 2
+                }
+    
+                .board-pic {
+                    max-width: 500px;
+                    height: 300px;
+                    align-self: flex-start;
+                    margin-left: 100px;
+                    margin-top: -70px
+                }
+            }
+    
+            .right {
+                width: 50%;
+                display: flex;
+                flex-direction: row-reverse;
+    
+                .right-div-column-container {
+    
+                    .top-figures {
+                        margin-bottom: -113px;
+                        position: relative;
+                        margin-left: -135px;
+                        display: flex;
+                        justify-content: space-between;
+    
+                        .green-polygon {
+                            height: 70px;
+                            width: 70px;
+                            margin-top: -40px;
+                            margin-right: 70px;
+                            align-self: flex-start;
+                        }
+    
+                    }
+    
+                    .middle-front{
+                        background: #539DFF;
+                        width: 300px;
+                        height: 500px;
+                        margin-right: 100px;
+    
+                        img {
+                            margin-left: -80px;
+                            margin-top: 30px;
+                            height: 550px;
+                            width: 350px;
+                        }
+                    }
+    
+                    .bottom-figures {
+                        margin-right: 80px;
+                        display: flex;
+                        flex-direction: row-reverse;
+                    }
+                }  
+            }
+        }
+
+        .about-me {
+            h2 {
+                color: #FF9482;
+                font-family: Lexend Deca;
+                font-size: 2rem;
+                width: 150px;
+                padding: 5px;
+                border-bottom: 10px solid #4285A8;
+                margin: 0 auto
+            }
+
+            p {
+                width: 80%;
+                margin: 20px auto;
+                font-size: 1.6rem;
+            }
+        }
+
+        .quotes {
+            margin-top: 200px;
+            h2 {
+                font-family: Lexend Deca;
+                font-size: 2rem;
+                color: #7C62FF;
+                padding: 5px;
+                width: 270px;
+                margin: 0 auto
+            }
+
+            p {
+                width: 80%;
+                margin: 20px auto;
+                font-size: 1.6rem;
+            }
+        };
+    }
+    
+
+
+}
